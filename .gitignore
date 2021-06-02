@@ -1,6 +1,6 @@
 #reports
-API/reports
-newman/
+.API/reports/
+.newman/
 
 # Logs
 logs
