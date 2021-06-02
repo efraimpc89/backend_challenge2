@@ -1,0 +1,24 @@
+{
+  "name": "backend_challenge2",
+  "version": "1.0.0",
+  "description": "Challenge Exercise - Backend - Postman + Newman",
+  "main": "index.js",
+  "scripts": {
+    "test-all-no-report": "npx newman run .\\API\\collection\\Challenge2_EfraimPC.postman_collection.json -e  .\\API\\envVariables\\Prod.postman_environment.json --env-var ",
+    "test-all-report": "npx newman run .\\API\\collection\\Challenge2_EfraimPC.postman_collection.json -e  .\\API\\envVariables\\Prod.postman_environment.json -r htmlextra --reporter-htmlxtra-export .\\API\reports --env-var "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efraimpc89/backend_challenge2.git"
+  },
+  "author": "Efraim Peña",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/efraimpc89/backend_challenge2/issues"
+  },
+  "homepage": "https://github.com/efraimpc89/backend_challenge2#readme",
+  "devDependencies": {
+    "newman": "^5.2.3",
+    "newman-reporter-htmlextra": "^1.21.0"
+  }
+}
