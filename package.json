@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test-all-no-report": "npx newman run .\\API\\collection\\Challenge2_EfraimPC.postman_collection.json -e  .\\API\\envVariables\\Prod.postman_environment.json --env-var ",
-    "test-all-report": "npx newman run .\\API\\collection\\Challenge2_EfraimPC.postman_collection.json -e  .\\API\\envVariables\\Prod.postman_environment.json -r htmlextra --reporter-htmlxtra-export .\\API\reports --env-var "
+    "test-all-report": "npx newman run .\\API\\collection\\Challenge2_EfraimPC.postman_collection.json -e  .\\API\\envVariables\\Prod.postman_environment.json -r htmlextra --reporter-htmlxtra-export .\\API\\reports\\ --env-var "
   },
   "repository": {
     "type": "git",
