@@ -28,17 +28,18 @@ backend_challenge2
   └ README.md
 ```
 
-## Pre-requisites (Windows only)
+## Pre-requisites
 
 1. Install Node.js + npm [https://nodejs.org/en/](https://nodejs.org/en/)  
 [You can follow this guide: [https://wsvincent.com/install-node-js-npm-windows/](https://wsvincent.com/install-node-js-npm-windows/)]  
-  
-2. Javascript IDE:  (Only if you wish to explore the code more confortable)
+
+2. [Installing Artillery](https://artillery.io/docs/guides/getting-started/installing-artillery.html)
+3. [Install Git](https://git-scm.com/downloads)
+4. [OPTIONAL] Javascript IDE:  
+	   (Only if you wish to explore the code more confortable)
 	- Visual Studio Code: [https://code.visualstudio.com/](https://code.visualstudio.com/)  
-	- Atom: [https://ide.atom.io/](https://ide.atom.io/)  
-  
-4. [Installing Artillery](https://artillery.io/docs/guides/getting-started/installing-artillery.html)
-5. [Install Git](https://git-scm.com/downloads)
+	- Atom: [https://ide.atom.io/](https://ide.atom.io/) 
+5. [OPTIONAL] [Postman](https://www.postman.com/downloads/) 
 
 ## How to run 
 
