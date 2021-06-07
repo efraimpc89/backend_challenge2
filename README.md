@@ -33,13 +33,12 @@ backend_challenge2
 1. Install Node.js + npm [https://nodejs.org/en/](https://nodejs.org/en/)  
 [You can follow this guide: [https://wsvincent.com/install-node-js-npm-windows/](https://wsvincent.com/install-node-js-npm-windows/)]  
 
-2. [Installing Artillery](https://artillery.io/docs/guides/getting-started/installing-artillery.html)
-3. [Install Git](https://git-scm.com/downloads)
-4. [OPTIONAL] Javascript IDE:  
+2. [Install Git](https://git-scm.com/downloads)
+3. [OPTIONAL] Javascript IDE:  
 	   (Only if you wish to explore the code more confortable)
 	- Visual Studio Code: [https://code.visualstudio.com/](https://code.visualstudio.com/)  
 	- Atom: [https://ide.atom.io/](https://ide.atom.io/) 
-5. [OPTIONAL] [Postman](https://www.postman.com/downloads/) 
+4. [OPTIONAL] [Postman](https://www.postman.com/downloads/) 
 
 ## How to run 
 
@@ -55,13 +54,13 @@ backend_challenge2
 	
 	**-To run all tests with no report generated:**
 
-		 npm run test-all-no-report <AUTH_TOKEN>
+		 npm run test-all-no-report token=<AUTH_TOKEN>
 
 	The results of the tests will be displayed on console.
 	
 	**-To run all tests and generate an html report**:
 
-		 npm run test-all-report <AUTH_TOKEN>
+		 npm run test-all-report token=<AUTH_TOKEN>
 
 	 in order to see the html report, navigate to *backend_challenge2/newman* folder and you should see all the generated reports so far, open them with any browser to view them.
 
